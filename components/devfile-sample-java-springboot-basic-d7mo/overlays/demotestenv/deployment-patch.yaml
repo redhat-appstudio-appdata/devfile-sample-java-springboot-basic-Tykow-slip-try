@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-java-springboot-basic-d7mo
+spec:
+  replicas: 2
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ee-sombaner-tenant/devfile-sample-java-springboot-basic/devfile-sample-java-springboot-basic-d7mo@sha256:6b024fecefa05833dd9bcf7bfc33cc839ece286ec9deb23ac34fd77bf88f3eea
+        name: my-java-springboot
+        resources: {}
+status: {}
