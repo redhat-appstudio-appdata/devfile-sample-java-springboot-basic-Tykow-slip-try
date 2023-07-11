@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-java-springboot-basic-d7mo
 spec:
-  replicas: 2
   selector: {}
   strategy: {}
   template:
